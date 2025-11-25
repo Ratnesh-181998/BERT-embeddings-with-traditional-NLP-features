@@ -33,8 +33,8 @@ Jaguar_Project/
 
 1.  **Clone the repository** (if you haven't already):
     ```bash
-    git clone https://github.com/YOUR_USERNAME/Jaguar_Project.git
-    cd Jaguar_Project
+    git clone https://github.com/Ratnesh-181998/BERT-embeddings-with-traditional-NLP-features.git
+    cd BERT-embeddings-with-traditional-NLP-features
     ```
 
 2.  **Install Dependencies**:
@@ -76,3 +76,16 @@ For a deep dive into the system design, feature engineering, and modeling approa
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📧 Contact
+
+**Ratnesh Kumar**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ratneshkumar1998/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/Ratnesh-181998)
+
+Feel free to reach out for questions, collaborations, or feedback!
