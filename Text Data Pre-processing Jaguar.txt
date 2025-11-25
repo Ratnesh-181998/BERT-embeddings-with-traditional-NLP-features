@@ -1,0 +1,35 @@
+Comprehensive Notes on Software Engineering Class
+In this class, we delved into several key concepts surrounding text data processing and its applications in machine learning. Below is a detailed breakdown of the topics covered during the session:
+
+1. Text Data Pre-processing
+Tokenization
+Definition: Tokenization involves splitting sentences into individual words or tokens. It’s a crucial step in natural language processing (NLP) as it converts the text into a manageable form.
+Tools: Tools like SpaCy and NLTK can be used for tokenization【8:0†source】.
+Conversion to Lowercase
+Purpose: Turning all words to lowercase ensures uniformity, which is essential for reducing redundancy in data. For instance, "The" and "the" would be considered different words if not normalized【8:0†source】.
+Removing Punctuations and Stop Words
+Details: Unnecessary elements such as punctuation (e.g., periods, exclamation marks) and stop words (e.g., "the", "is") should be removed to focus on meaningful words that contribute to learning【8:0†source】.
+2. Feature Engineering
+TF-IDF Vectorization
+Explanation: TF-IDF (Term Frequency-Inverse Document Frequency) vectorization is a numerical statistic that reflects the importance of a word relative to a document. It helps in converting text data into numbers that can be processed by machine learning algorithms【8:10†source】.
+Parts of Speech (POS) Tagging
+Functionality: POS tagging assigns parts of speech to each word in a sentence, such as nouns, verbs, adjectives, etc., enabling the understanding of the grammatical structure【8:11†source】.
+Dependency Parsing
+Utility: This technique establishes relationships between words, constructing a tree structure where words are connected according to their dependencies【8:11†source】.
+3. Embeddings and Model Building
+Word2vec, GloVe, and BERT
+Word2vec and GloVe: Used for creating word embeddings that can capture word relationships and semantic meaning. However, they lack contextual understanding【8:9†source】【8:6†source】.
+BERT: BERT embeddings are contextually aware and provide better accuracy for tasks requiring understanding of word contexts. It demands more computational power due to its complexity【8:2†source】【8:16†source】.
+Hybrid Approaches
+Combining Methods: The integration of traditional techniques like TF-IDF with modern contextual embeddings like BERT can yield a hybrid approach that balances between interpretability and performance【8:16†source】.
+4. Model Deployment
+Building Inference Pipelines
+Process: Before deployment, setting up an inference pipeline ensures that incoming data correctly passes through similar preprocessing steps as the training data【8:2†source】.
+Efficiency Enhancements
+Optimization: Utilizing methods such as ONNX runtime or model quantization can optimize models for faster inference on CPUs【8:2†source】.
+API Deployment
+Tools: Deploy models using frameworks like Flask or FastAPI. These tools facilitate the creation of RESTful APIs for exposing model functionalities【8:14†source】.
+5. Handling Edge Cases and Imbalances
+Class Imbalance Solutions
+Approaches: When facing class imbalances, especially in datasets where one class dominates, strategies like using class weights during training can be effective【8:19†source】.
+This session equipped learners with a comprehensive understanding of text processing in machine learning systems, from feature extraction and embeddings to model deployment and optimization strategies
